@@ -35,3 +35,4 @@ end
 # Thirdparty
 gem 'haml'
 gem 'bootstrap-sass', '~> 2.1.1.0'
+gem 'rails_12factor', group: :production
