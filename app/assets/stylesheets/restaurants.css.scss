@@ -23,14 +23,16 @@ body {
   .section {
     ol {
       li {
-        padding: 20px;
+        padding: 20px auto;
         font-family: 'Advent Pro', sans-serif;
         color: #033e6b;
-        font-size: 20px;
+        font-size: 17px;
+        font-weight: bold;
         span { 
           color: gray; 
           font-family: 'Arial';
           font-size: 14px;
+          font-weight: normal;
         }
       }
     }
