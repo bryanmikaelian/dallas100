@@ -1,0 +1,20 @@
+.row
+  .span12
+    .heading
+      %h1 THE DALLAS 100
+  .span12
+    .section
+      %ol
+        - @restaurants.each do |restaurant|
+          %li
+            = restaurant.name
+            .pull-right.actions
+              - if restaurant.visited?
+                = link_to restaurant_path(restaurant), class: 'btn disabled' do 
+                  COMPLETE
+              - else
+                = link_to restaurant_path(restaurant), method: :put, class: 'btn btn-success' do 
+                  %i.fa.fa-check
+            %br
+            %span= "Featured Item: #{restaurant.featured_item}"
+          %hr

@@ -1,0 +1,9 @@
+LOG:  database system was shut down at 2014-01-02 14:46:19 CST
+LOG:  database system is ready to accept connections
+LOG:  autovacuum launcher started
+FATAL:  role "dallas100" does not exist
+FATAL:  role "dallas100" does not exist
+FATAL:  database "bmikaelian" does not exist
+FATAL:  database "bmikaelian" does not exist
+FATAL:  database "bmikaelian" does not exist
+FATAL:  role "dallas100" does not exist

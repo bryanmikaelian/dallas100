@@ -1,0 +1,38 @@
+// Place all the styles related to the restaurants controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+@import "bootstrap";
+@import "bootstrap-responsive";
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,100);
+
+body {
+  background-color: #ffd073;
+  background-image: url('straws.png');
+  h1 {
+    color: #033e6b;
+    font-size: 48px;
+    font-family: 'Advent Pro', sans-serif;
+  }
+
+  .heading {
+    text-align: center;
+    margin-bottom: 9px;
+    border-bottom: 1px solid #033e6b;
+  }
+
+  .section {
+    ol {
+      li {
+        padding: 20px;
+        font-family: 'Advent Pro', sans-serif;
+        color: #033e6b;
+        font-size: 20px;
+        span { 
+          color: gray; 
+          font-family: 'Arial';
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
